@@ -1,6 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import * as glamor from 'glamor'
+import * as glamor from '@headspace/glamor'
 import * as enzyme from 'enzyme'
 import toJson from 'enzyme-to-json'
 import serializer from '../serializer'

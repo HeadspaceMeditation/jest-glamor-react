@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import renderer from 'react-test-renderer'
-import * as glamor from 'glamor'
+import * as glamor from '@headspace/glamor'
 import * as enzyme from 'enzyme'
 import {toHaveStyleRule} from '../matchers'
 import serializer from '../serializer'

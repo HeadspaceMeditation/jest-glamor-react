@@ -12,7 +12,10 @@
     "validate": "kcd-scripts validate",
     "precommit": "kcd-scripts precommit"
   },
-  "files": ["dist", "index.js"],
+  "files": [
+    "dist",
+    "index.js"
+  ],
   "keywords": [],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
@@ -26,7 +29,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.1",
-    "glamor": "^2.20.24",
+    "@headspace/glamor": "^2.20.24",
     "kcd-scripts": "0.36.1",
     "react": "^16.2.0",
     "react-addons-test-utils": "^15.4.2",
@@ -35,10 +38,12 @@
     "snapshot-diff": "^0.3.0"
   },
   "peerDependencies": {
-    "glamor": "^2 || ^3"
+    "@headspace/glamor": "^2 || ^3"
   },
   "eslintConfig": {
-    "extends": ["./node_modules/kcd-scripts/eslint.js"],
+    "extends": [
+      "./node_modules/kcd-scripts/eslint.js"
+    ],
     "rules": {
       "jsx-a11y/heading-has-content": "off"
     }

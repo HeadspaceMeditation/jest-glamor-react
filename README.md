@@ -71,16 +71,16 @@ to React projects that use [`glamor`][glamor].
 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-* [Preview](#preview)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Custom matchers](#custom-matchers)
-  * [toHaveStyleRule(property, value)](#tohavestyleruleproperty-value)
-  * [Integration with snapshot-diff](#integration-with-snapshot-diff)
-* [Inspiration](#inspiration)
-* [Other Solutions](#other-solutions)
-* [Contributors](#contributors)
-* [LICENSE](#license)
+- [Preview](#preview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Custom matchers](#custom-matchers)
+  - [toHaveStyleRule(property, value)](#tohavestyleruleproperty-value)
+  - [Integration with snapshot-diff](#integration-with-snapshot-diff)
+- [Inspiration](#inspiration)
+- [Other Solutions](#other-solutions)
+- [Contributors](#contributors)
+- [LICENSE](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -128,7 +128,7 @@ Here are some components:
 
 ```javascript
 import React from 'react'
-import * as glamor from 'glamor'
+import * as glamor from '@headspace/glamor'
 
 function Wrapper(props) {
   const className = glamor.css({
@@ -293,7 +293,7 @@ with that handy matcher:
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {Simulate} from 'react-dom/test-utils'
-import * as glamor from 'glamor'
+import * as glamor from '@headspace/glamor'
 import {toMatchDiffSnapshot, getSnapshotDiffSerializer} from 'snapshot-diff'
 import serializer, {fromDOMNode} from 'jest-glamor-react'
 

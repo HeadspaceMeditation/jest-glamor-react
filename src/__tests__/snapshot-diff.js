@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {Simulate} from 'react-dom/test-utils'
-import * as glamor from 'glamor'
+import * as glamor from '@headspace/glamor'
 import {toMatchDiffSnapshot, getSnapshotDiffSerializer} from 'snapshot-diff'
 import serializer, {fromHTMLString, fromDOMNode} from '../serializer'
 

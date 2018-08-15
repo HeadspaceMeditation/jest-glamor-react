@@ -1,0 +1,101 @@
+Arguments: 
+  /Users/jcblw/.nvm/versions/node/v8.11.3/bin/node /Users/jcblw/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/jcblw/.nvm/versions/node/v8.11.3/bin:/Users/jcblw/.yarn/bin:/Users/jcblw/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "jest-glamor-react",
+    "version": "0.0.0-semantically-released",
+    "description": "Jest utilities for Glamor and React",
+    "main": "./index.js",
+    "scripts": {
+      "add-contributor": "kcd-scripts contributors add",
+      "build": "kcd-scripts build",
+      "lint": "kcd-scripts lint",
+      "test": "kcd-scripts test",
+      "setup": "npm install && npm run validate",
+      "validate": "kcd-scripts validate",
+      "precommit": "kcd-scripts precommit"
+    },
+    "files": [
+      "dist",
+      "index.js"
+    ],
+    "keywords": [],
+    "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+    "license": "MIT",
+    "dependencies": {
+      "chalk": "^2.3.2",
+      "css": "^2.2.1",
+      "is-html": "^1.1.0",
+      "pretty-format": "^22.4.0"
+    },
+    "devDependencies": {
+      "enzyme": "^3.3.0",
+      "enzyme-adapter-react-16": "^1.1.1",
+      "enzyme-to-json": "^3.3.1",
+      "@headspace/glamor": "^2.20.24",
+      "kcd-scripts": "0.36.1",
+      "react": "^16.2.0",
+      "react-addons-test-utils": "^15.4.2",
+      "react-dom": "^16.2.0",
+      "react-test-renderer": "^16.2.0",
+      "snapshot-diff": "^0.3.0"
+    },
+    "peerDependencies": {
+      "glamor": "^2 || ^3"
+    },
+    "eslintConfig": {
+      "extends": [
+        "./node_modules/kcd-scripts/eslint.js"
+      ],
+      "rules": {
+        "jsx-a11y/heading-has-content": "off"
+      }
+    },
+    "eslintIgnore": [
+      "node_modules",
+      "coverage",
+      "dist",
+      "storybook-static",
+      "typings"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kentcdodds/jest-glamor-react.git"
+    },
+    "bugs": {
+      "url": "https://github.com/kentcdodds/jest-glamor-react/issues"
+    },
+    "homepage": "https://github.com/kentcdodds/jest-glamor-react#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Received malformed response from registry for undefined. The registry may be down.
+      at new MessageError (/Users/jcblw/.yarn/lib/cli.js:186:110)
+      at Function.<anonymous> (/Users/jcblw/.yarn/lib/cli.js:51419:15)
+      at Generator.next (<anonymous>)
+      at step (/Users/jcblw/.yarn/lib/cli.js:98:30)
+      at /Users/jcblw/.yarn/lib/cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (/Users/jcblw/.yarn/lib/cli.js:23451:28)
+      at Function.<anonymous> (/Users/jcblw/.yarn/lib/cli.js:95:12)
+      at Function.findVersionInRegistryResponse (/Users/jcblw/.yarn/lib/cli.js:51461:19)
+      at NpmResolver.<anonymous> (/Users/jcblw/.yarn/lib/cli.js:51479:28)

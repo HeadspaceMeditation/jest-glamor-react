@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import * as glamor from 'glamor'
+import * as glamor from '@headspace/glamor'
 import serializer from '../serializer'
 
 expect.addSnapshotSerializer(serializer)
