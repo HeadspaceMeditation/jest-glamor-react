@@ -1,6 +1,6 @@
 {
   "name": "@headspace/jest-glamor-react",
-  "version": "0.0.0-semantically-released",
+  "version": "1.0.1",
   "description": "Jest utilities for Glamor and React",
   "main": "./index.js",
   "scripts": {

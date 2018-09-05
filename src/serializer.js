@@ -10,7 +10,7 @@ const {
 
 // doing this to make it easier for users to mock things
 // like switching between development mode and whatnot.
-const getGlamorStyleSheet = () => require('glamor').styleSheet
+const getGlamorStyleSheet = () => require('@headspace/glamor').styleSheet
 
 function createSerializer(styleSheet) {
   // eslint-disable-next-line complexity

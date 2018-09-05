@@ -1,7 +1,7 @@
 const chalk = require('chalk')
 const {getAST, getClassNames} = require('./utils')
 
-const getGlamorStyleSheet = () => require('glamor').styleSheet
+const getGlamorStyleSheet = () => require('@headspace/glamor').styleSheet
 
 /*
  * Taken from
